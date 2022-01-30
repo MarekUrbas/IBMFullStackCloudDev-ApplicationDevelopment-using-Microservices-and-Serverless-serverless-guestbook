@@ -7,7 +7,7 @@ const guestbook = {
   get() {
     return $.ajax({
       type: 'GET',
-      url: `${https://github.com/MarekUrbas/IBMFullStackCloudDev-ApplicationDevelopment-using-Microservices-and-Serverless-serverless-guestbook}/entries`,
+      url: `${https://marekurbas-guestbook.s3.eu-de.cloud-object-storage.appdomain.cloud}/entries`,
       dataType: 'json'
     });
   },
