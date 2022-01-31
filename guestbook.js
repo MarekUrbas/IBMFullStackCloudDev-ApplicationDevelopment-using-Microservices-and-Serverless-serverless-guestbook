@@ -1,13 +1,13 @@
 /**
  * Web application
  */
-const apiUrl = 'https://marekurbas-guestbook.s3.eu-de.cloud-object-storage.appdomain.cloud';
+const apiUrl = 'https://23731c3d.eu-gb.apigw.appdomain.cloud/guestbook';
 const guestbook = {
   // retrieve the existing guestbook entries
   get() {
     return $.ajax({
       type: 'GET',
-      url: `${apiUrl}/entries`,
+      url: `${apiUrl}/https://marekurbas-guestbook.s3.eu-de.cloud-object-storage.appdomain.cloud`,
       dataType: 'json'
     });
   },
