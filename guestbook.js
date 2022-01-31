@@ -7,7 +7,7 @@ const guestbook = {
   get() {
     return $.ajax({
       type: 'GET',
-      url: `${apiUrl}/https://marekurbas-guestbook.s3.eu-de.cloud-object-storage.appdomain.cloud`,
+      url: `${apiUrl}/entries`,
       dataType: 'json'
     });
   },
